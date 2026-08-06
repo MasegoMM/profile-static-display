@@ -7,7 +7,7 @@ export const profile = {
   title: "Aspiring Data Analyst | BSc Information Technology Student",
   intro:
     "I turn raw data into clear, decision-ready insight. Currently completing my BSc in Information Technology while building analytics projects with Python, SQL and Power BI.",
-  email: "you@example.com",
+  email: "moatshemasego73@gmail.com",
   linkedin: "https://linkedin.com/in/your-profile",
   github: "https://github.com/your-username",
   location: "South Africa",

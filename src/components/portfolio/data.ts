@@ -3,7 +3,7 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 
 export const profile = {
-  name: "Your Name",
+  name: "Masego Laurentia Moatshe",
   title: "Aspiring Data Analyst | BSc Information Technology Student",
   intro:
     "I turn raw data into clear, decision-ready insight. Currently completing my BSc in Information Technology while building analytics projects with Python, SQL and Power BI.",

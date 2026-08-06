@@ -8,8 +8,8 @@ export const profile = {
   intro:
     "I turn raw data into clear, decision-ready insight. Currently completing my BSc in Information Technology while building analytics projects with Python, SQL and Power BI.",
   email: "moatshemasego73@gmail.com",
-  linkedin: "https://linkedin.com/in/your-profile",
-  github: "https://github.com/your-username",
+  linkedin: "https://www.linkedin.com/in/masego-moatshe-0059b7334/",
+  github: "https://github.com/MasegoMM",
   location: "South Africa",
 };
 
@@ -39,7 +39,7 @@ export const projects = [
     description:
       "Interactive dashboard tracking revenue, basket size and regional performance across 24 months of retail transactions.",
     tech: ["Power BI", "SQL", "Excel"],
-    github: "https://github.com/your-username",
+    github: "https://github.com/MasegoMM",
     demo: "https://example.com",
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     description:
       "An ETL pipeline that cleans, validates and loads customer records into a normalised PostgreSQL schema with automated quality checks.",
     tech: ["Python", "PostgreSQL", "Pandas"],
-    github: "https://github.com/your-username",
+    github: "https://github.com/MasegoMM",
   },
   {
     title: "Churn Prediction Model",
@@ -56,7 +56,7 @@ export const projects = [
     description:
       "Exploratory analysis and a logistic regression baseline predicting subscriber churn, with feature importance reporting.",
     tech: ["Python", "scikit-learn", "Matplotlib"],
-    github: "https://github.com/your-username",
+    github: "https://github.com/MasegoMM",
     demo: "https://example.com",
   },
 ];

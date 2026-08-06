@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile-placeholder.jpg";
-import { ArrowRight, Download, Mail } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { profile } from "./data";
 
@@ -40,11 +40,6 @@ export function Hero() {
             <Button asChild size="lg" className="rounded-full shadow-[var(--shadow-soft)]">
               <a href="#projects">
                 View Projects <ArrowRight className="size-4" />
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="secondary" className="rounded-full">
-              <a href="/cv.pdf" download>
-                <Download className="size-4" /> Download CV
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full">

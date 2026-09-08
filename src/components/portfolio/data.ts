@@ -23,14 +23,20 @@ export const navLinks = [
 
 export const skills = [
   "Python",
-  "SQL",
+  "MySQL",
+  "SQL Server Management Studio",
   "Java",
   "JavaScript",
   "Power BI",
   "AWS",
   "Git",
   "GitHub",
+  "Data cleaning",
   "Exploratory data analysis",
+  "Jupyter Notebook",
+  "IntelliJ IDEA",
+  "VS Code",
+  "Excel",
 ];
 
 export const projects = [
@@ -64,14 +70,14 @@ export const projects = [
 
 export const education = [
   {
-    school: "Richfield Institute of Technology",
+    school: "Richfield Graduate Institute of Technology",
     qualification: "BSc Information Technology",
     period: "2023 — Present",
     detail:
       "Coursework in databases, data structures, statistics, software development and information systems.",
   },
   {
-    school: "High School Name",
+    school: "HF Tlou",
     qualification: "National Senior Certificate",
     period: "2022",
     detail: "Bachelor's pass in Mathematics and Information Technology.",

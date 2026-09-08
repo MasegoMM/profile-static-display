@@ -80,7 +80,7 @@ export const education = [
     school: "HF Tlou",
     qualification: "National Senior Certificate",
     period: "2022",
-    detail: "Bachelor's pass in Mathematics and Information Technology.",
+    detail: "Bachelor's pass.",
   },
 ];
 

@@ -1,4 +1,4 @@
-import profileImg from "@/assets/profile-placeholder.jpg";
+import profileAsset from "@/assets/profile.jpg.asset.json";
 import { ArrowRight, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { profile } from "./data";
@@ -10,16 +10,13 @@ export function Hero() {
         <div className="animate-rise mx-auto">
           <div className="gradient-brand rounded-[2rem] p-1.5 shadow-[var(--shadow-card)]">
             <img
-              src={profileImg}
+              src={profileAsset.url}
               width={800}
               height={800}
               alt={`Profile photo of ${profile.name}`}
               className="size-44 rounded-[1.6rem] object-cover sm:size-60"
             />
           </div>
-          <p className="mt-3 text-center text-xs text-muted-foreground">
-            Replace with your own photo
-          </p>
         </div>
 
         <div className="animate-rise min-w-0">

@@ -22,14 +22,15 @@ export const navLinks = [
 ];
 
 export const skills = [
-  { name: "Python", level: 85, group: "Analysis" },
-  { name: "SQL", level: 88, group: "Data" },
-  { name: "Power BI", level: 80, group: "Visualisation" },
-  { name: "Java", level: 70, group: "Programming" },
-  { name: "JavaScript", level: 72, group: "Programming" },
-  { name: "AWS", level: 60, group: "Cloud" },
-  { name: "Git", level: 82, group: "Tooling" },
-  { name: "GitHub", level: 85, group: "Tooling" },
+  "Python",
+  "SQL",
+  "Java",
+  "JavaScript",
+  "Power BI",
+  "AWS",
+  "Git",
+  "GitHub",
+  "Exploratory data analysis",
 ];
 
 export const projects = [
@@ -63,7 +64,7 @@ export const projects = [
 
 export const education = [
   {
-    school: "University Name",
+    school: "Richfield Institute of Technology",
     qualification: "BSc Information Technology",
     period: "2023 — Present",
     detail:
@@ -73,13 +74,10 @@ export const education = [
     school: "High School Name",
     qualification: "National Senior Certificate",
     period: "2022",
-    detail: "Bachelor's pass with distinctions in Mathematics and Information Technology.",
+    detail: "Bachelor's pass in Mathematics and Information Technology.",
   },
 ];
 
 export const certifications = [
-  { name: "Google Data Analytics Certificate", issuer: "Coursera", year: "2025" },
-  { name: "AWS Cloud Practitioner Essentials", issuer: "AWS Skill Builder", year: "2025" },
-  { name: "SQL for Data Analysis", issuer: "DataCamp", year: "2024" },
-  { name: "Microsoft Power BI Fundamentals", issuer: "Microsoft Learn", year: "2024" },
+  { name: "Microsoft AI Essentials", issuer: "Microsoft Learn", year: "2025" },
 ];

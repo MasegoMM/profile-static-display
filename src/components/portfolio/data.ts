@@ -72,14 +72,14 @@ export const education = [
   {
     school: "Richfield Graduate Institute of Technology",
     qualification: "BSc Information Technology",
-    period: "2023 — Present",
+    period: "2024 — Present",
     detail:
       "Coursework in databases, data structures, statistics, software development and information systems.",
   },
   {
     school: "HF Tlou",
     qualification: "National Senior Certificate",
-    period: "2022",
+    period: "2020",
     detail: "Bachelor's pass.",
   },
 ];

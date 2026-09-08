@@ -1,4 +1,4 @@
-import { GraduationCap, Target, Sparkles } from "lucide-react";
+import { GraduationCap, Sparkles } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Section } from "./Section";
 
@@ -6,12 +6,7 @@ const cards = [
   {
     icon: GraduationCap,
     title: "Education",
-    body: "Studying BSc Information Technology, with a focus on databases, statistics and software development.",
-  },
-  {
-    icon: Target,
-    title: "Career goals",
-    body: "To grow into a data analyst role where I own reporting, build dashboards and support decisions with evidence.",
+    body: "Studying BSc Information Technology at Richfield Institute of Technology, with a focus on databases, statistics and software development.",
   },
   {
     icon: Sparkles,
@@ -32,9 +27,10 @@ export function About() {
         <Card className="rounded-3xl border-border/70 shadow-[var(--shadow-soft)]">
           <CardContent className="p-7 text-[15px] leading-relaxed text-muted-foreground">
             <p>
-              I'm an aspiring data analyst completing a BSc in Information Technology. I enjoy the
-              full analytics path — pulling data with SQL, cleaning and exploring it in Python, then
-              presenting it as a dashboard people can actually act on.
+              I'm an aspiring data analyst completing a BSc in Information Technology at Richfield
+              Institute of Technology. I enjoy the full analytics path — pulling data with SQL,
+              cleaning and exploring it in Python, then presenting it as a dashboard people can
+              actually act on.
             </p>
             <p className="mt-4">
               Alongside my degree I build personal projects to sharpen practical skills, document

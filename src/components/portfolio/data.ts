@@ -1,3 +1,4 @@
+import projectLaCrime from "@/assets/project-la-crime.jpg";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
@@ -40,6 +41,15 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    title: "LAPD Crime Data Analysis (2020–2024)",
+    image: projectLaCrime,
+    description:
+      "Exploratory analysis of 1,004,894 LAPD crime incidents: time trends, crime types, geography and hotspots, victim demographics, and a model predicting arrest outcomes.",
+    tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "scikit-learn"],
+    github: "https://github.com/MasegoMM",
+    demo: "/LA_Crime_Analysis_Report.html",
+  },
   {
     title: "Retail Sales Analytics Dashboard",
     image: project1,

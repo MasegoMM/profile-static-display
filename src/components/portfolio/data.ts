@@ -1,7 +1,4 @@
 import projectLaCrime from "@/assets/project-la-crime.jpg";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
 
 export const profile = {
   name: "Masego Laurentia Moatshe",
@@ -49,32 +46,6 @@ export const projects = [
     tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "scikit-learn"],
     github: "https://github.com/MasegoMM",
     demo: "/LA_Crime_Analysis_Report.html",
-  },
-  {
-    title: "Retail Sales Analytics Dashboard",
-    image: project1,
-    description:
-      "Interactive dashboard tracking revenue, basket size and regional performance across 24 months of retail transactions.",
-    tech: ["Power BI", "SQL", "Excel"],
-    github: "https://github.com/MasegoMM",
-    demo: "https://example.com",
-  },
-  {
-    title: "Customer Data Pipeline",
-    image: project2,
-    description:
-      "An ETL pipeline that cleans, validates and loads customer records into a normalised PostgreSQL schema with automated quality checks.",
-    tech: ["Python", "PostgreSQL", "Pandas"],
-    github: "https://github.com/MasegoMM",
-  },
-  {
-    title: "Churn Prediction Model",
-    image: project3,
-    description:
-      "Exploratory analysis and a logistic regression baseline predicting subscriber churn, with feature importance reporting.",
-    tech: ["Python", "scikit-learn", "Matplotlib"],
-    github: "https://github.com/MasegoMM",
-    demo: "https://example.com",
   },
 ];
 

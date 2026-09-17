@@ -44,7 +44,7 @@ export const projects = [
     description:
       "Exploratory analysis of 1,004,894 LAPD crime incidents: time trends, crime types, geography and hotspots, victim demographics, and a model predicting arrest outcomes.",
     tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "scikit-learn"],
-    github: "https://github.com/MasegoMM",
+    github: "https://github.com/MasegoMM/Crime_Data_Analysis_2020_2024",
     demo: "/LA_Crime_Analysis_Report.html",
   },
 ];

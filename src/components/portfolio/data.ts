@@ -43,7 +43,7 @@ export const projects = [
     image: projectLaCrime,
     description:
       "Exploratory analysis of 1,004,894 LAPD crime incidents: time trends, crime types, geography and hotspots, victim demographics, and a model predicting arrest outcomes.",
-    tech: ["Python", "Pandas", "Matplotlib"],
+    tech: ["Python", "Pandas", "Matplotlib", "Jupyter Notebook"],
     github: "https://github.com/MasegoMM/Crime_Data_Analysis_2020_2024",
     demo: "/LA_Crime_Analysis_Report.html",
   },
